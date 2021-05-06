@@ -86,3 +86,8 @@ echo -e "1/4 ${LCYAN}ESLint & Prettier Installation... ${NC}"
 echo
 $pkg_cmd -D eslint prettier eslint-plugin-react-hooks
 
+echo
+echo -e "2/4 ${YELLOW}Conforming to Airbnb's JavaScript Style Guide... ${NC}"
+echo
+$pkg_cmd -D eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react babel-eslint
+
