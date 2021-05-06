@@ -75,3 +75,14 @@ select trailing_comma_pref in "none" "es5" "all"; do
 done
 echo
 
+# ----------------------
+# Perform Configuration
+# ----------------------
+echo
+echo -e "${GREEN}Configuring your development environment... ${NC}"
+
+echo
+echo -e "1/4 ${LCYAN}ESLint & Prettier Installation... ${NC}"
+echo
+$pkg_cmd -D eslint prettier eslint-plugin-react-hooks
+
