@@ -96,3 +96,11 @@ echo -e "3/4 ${LCYAN}Making ESlint and Prettier play nice with each other... ${N
 echo "See https://github.com/prettier/eslint-config-prettier for more details."
 echo
 $pkg_cmd -D eslint-config-prettier eslint-plugin-prettier
+
+if [ "$skip_eslint_setup" == "true" ]; then
+  break
+else
+  echo
+  echo -e "4/4 ${YELLOW}Building your .eslintrc${config_extension} file...${NC}"
+  > ".eslintrc${config_extension}" # truncates existing file (or creates empty)
+  
