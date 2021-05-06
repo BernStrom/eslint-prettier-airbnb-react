@@ -91,3 +91,8 @@ echo -e "2/4 ${YELLOW}Conforming to Airbnb's JavaScript Style Guide... ${NC}"
 echo
 $pkg_cmd -D eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react babel-eslint
 
+echo
+echo -e "3/4 ${LCYAN}Making ESlint and Prettier play nice with each other... ${NC}"
+echo "See https://github.com/prettier/eslint-config-prettier for more details."
+echo
+$pkg_cmd -D eslint-config-prettier eslint-plugin-prettier
