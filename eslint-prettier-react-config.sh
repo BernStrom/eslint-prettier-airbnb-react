@@ -146,4 +146,10 @@ else
         "allowTaggedTemplates": true
       }
     ],
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
   }
