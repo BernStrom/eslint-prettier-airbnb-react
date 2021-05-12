@@ -125,3 +125,15 @@ else
     "jquery": true,
     "jest": true,
   },
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "no-debugger": 0,
+    "no-alert": 0,
+    "no-unused-vars": 1,
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "all"
+      }
+    ],
+  }
