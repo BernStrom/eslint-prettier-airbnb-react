@@ -171,4 +171,23 @@ else
     "react/no-unescaped-entities": 0,
     "jsx-a11y/accessible-emoji": 0,
     "react/require-default-props": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "radix": 0,
+    "no-shadow": "off",
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
   }
