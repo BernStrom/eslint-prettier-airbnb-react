@@ -206,14 +206,13 @@ else
           "invalidHref"
         ]
       }
+    ],
+    "plugins": [
+      "prettier",
+      "react",
+      "react-hooks"
     ]
-  },
-  "plugins": [
-    "prettier",
-    "react",
-    "react-hooks"
-  ]
-}' >> .eslintrc${config_extension}
+  }' >> .eslintrc${config_extension}
 fi
 
 echo
