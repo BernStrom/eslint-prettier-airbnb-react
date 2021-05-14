@@ -190,4 +190,12 @@ else
         "allowTemplateLiterals": true
       }
     ],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "'${trailing_comma_pref}'",
+        "singleQuote": true,
+        "printWidth": '${max_len_val}'
+      }
+    ],
   }
