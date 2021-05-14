@@ -190,4 +190,32 @@ else
         "allowTemplateLiterals": true
       }
     ],
-  }
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "'${trailing_comma_pref}'",
+        "singleQuote": true,
+        "printWidth": '${max_len_val}'
+      }
+    ],
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "aspects": [
+          "invalidHref"
+        ]
+      }
+    ]
+  },
+  "plugins": [
+    "prettier",
+    "react",
+    "react-hooks"
+  ]
+}' >> .eslintrc${config_extension}
+fi
+
+echo
+echo -e "${GREEN}Finished setting up!${NC}"
+echo
