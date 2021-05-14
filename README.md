@@ -37,7 +37,7 @@
    - Static AST checker for accessibility rules on JSX elements.
 3. [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) (Peer Dependency)
    - React specific linting rules for ESLint.
-4. [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+4. [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) (Peer Dependency)
    - Enforces the [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html).
 5. [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) (Peer Dependency)
    - Support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names.
