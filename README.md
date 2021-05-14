@@ -11,6 +11,12 @@
    ```bash
    exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.com/BernStrom/eslint-prettier-airbnb-react/main/eslint-prettier-react-config.sh 2> /dev/null)
    ```
+   For convenience, you could also assign the above command to an `alias` of your choice in your shell profile (`bash_profile, .zshrc`) 👇
+    
+      ```bash
+      alias eslint-init="exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.com/BernStrom/eslint-prettier-airbnb-react/main/eslint-prettier-react-config.sh 2> /dev/null)"
+      ```
+
 3. Make selections for your preference of package manager (npm or yarn), file format (.js or .json), max-line size, and trailing commas (none, es5, all).
 
 4. Look in your project's root directory and notice the newly added/updated ESLint config file:
