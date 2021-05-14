@@ -208,5 +208,14 @@ else
       }
     ]
   },
+  "plugins": [
+    "prettier",
+    "react",
+    "react-hooks"
+  ]
 }' >> .eslintrc${config_extension}
 fi
+
+echo
+echo -e "${GREEN}Finished setting up!${NC}"
+echo
